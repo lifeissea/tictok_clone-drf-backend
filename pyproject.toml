@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "tictok-clone-drf-backend"
+version = "0.1.0"
+description = ""
+authors = ["Tomas <lifeissea@naver.com>"]
+readme = "README.md"
+packages = [{include = "tictok_clone_drf_backend"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.2"
+djangorestframework = "^3.14.0"
+django-dotenv = "^1.4.2"
+django-environ = "^0.10.0"
+pillow = "^9.5.0"
+django-extensions = "^3.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
