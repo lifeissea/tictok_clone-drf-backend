@@ -9,6 +9,8 @@ class UsersSerializer(ModelSerializer):
             "id",
             "likes",
             "username",
+            "bio",
             "avatar",
+            "homepage",
             "email",
         )
