@@ -36,6 +36,7 @@ class Users(APIView):
 
     def post(self, request):
         username = request.data.get("username")
+        email = request.data.get("email")
         password = request.data.get("password")
         if not password:
             raise ParseError
